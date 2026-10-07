@@ -42,7 +42,7 @@
       {
         "@type": "Dataset",
         "name": "University of Hull Graduate Games — Commercial Release Credits",
-        "description": "A curated dataset of commercially released video games carrying credits from University of Hull Games Programming graduates, spanning 1990–2025. Each entry includes title, release year, genre, and Metacritic review score. Over 560 titles are listed, with games including Grand Theft Auto V (score 97), God of War (94), Forza Horizon 4 (92), Red Dead Redemption II (97), LittleBigPlanet (95), and Battlefield 2 (91). Collectively these titles have sold more than 1 billion copies and won over 100 industry awards including BAFTAs, DICE Awards, and Golden Joysticks.",
+        "description": "A curated dataset of commercially released video games carrying credits from University of Hull Games Programming graduates, spanning 1990–2026. Each entry includes title, release year, genre, and Metacritic review score. Over 560 titles are listed, with games including Grand Theft Auto V (score 97), God of War (94), Forza Horizon 4 (92), Red Dead Redemption II (97), LittleBigPlanet (95), and Battlefield 2 (91). Collectively these titles have sold more than 1 billion copies and won over 100 industry awards including BAFTAs, DICE Awards, and Golden Joysticks.",
         "url": "https://simongreyhull.github.io/applicantDemonstrations/demos/Dashboards/games.html",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "creator": {
@@ -73,7 +73,7 @@
           "name": "Computer Science for Games Programming BSc / MEng / MSc",
           "url": "https://www.hull.ac.uk/study/undergraduate/courses/computer-science-for-games-programming-bsc-meng-hons"
         },
-        "description": "The University of Hull's Games Programming degrees have produced graduates credited on over 560 commercially released video games since the early 1990s, with collective sales exceeding 1 billion copies."
+        "description": "The University of Hull's Games Programming degrees have produced graduates credited on over 900 commercially released video games since the early 1990s, with collective sales exceeding 1 billion copies."
       }
     ]
   }
@@ -86,7 +86,7 @@
     machine-readable content for AI agents and crawlers.
 
     SUBJECT: University of Hull, Games Programming graduate employment
-    DATA: 560+ commercially released video games (1990–2026) credited
+    DATA: 900+ commercially released video games (1990–2026) credited
           to Hull graduates. Fields: title, year, genre, Metacritic score.
     KEY FACTS:
       - 30+ years of graduates shipping professional game titles
@@ -95,7 +95,7 @@
       - Highest-scoring titles: GTA IV (98), GTA V (97), RDR2 (97),
         The Orange Box (96), LittleBigPlanet (95), Red Dead Redemption (95),
         God of War 2018 (94), Banjo-Kazooie (92), Rock Band (92),
-        Forza Horizon 4 (92), Forza Horizon 5 (92)
+        Forza Horizon 4 (92), Forza Horizon 5 (92), Forza Horizon 6 (90)
       - Genres covered: Action, Shooter, Racing, Strategy, Platformer,
         RPG, Sports, Puzzle, Music, Simulation
       - Courses: BSc/MEng Computer Science for Games Programming,
@@ -474,13 +474,13 @@
 <div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;" aria-hidden="true">
   <h2>About this dashboard</h2>
   <p>
-    The University of Hull Graduate Games Dashboard lists over 560 commercially released video games
+    The University of Hull Graduate Games Dashboard lists over 900 commercially released video games
     that carry credits from University of Hull Games Programming graduates, spanning from the early 1990s to 2025.
     Graduates have collectively shipped titles that sold more than one billion copies worldwide and won over
     100 industry awards including BAFTAs, DICE Awards, and Golden Joysticks.
     Top-rated titles include Grand Theft Auto IV (Metacritic 98), Grand Theft Auto V (97),
     Red Dead Redemption II (97), The Orange Box (96), LittleBigPlanet (95), Red Dead Redemption (95),
-    God of War (94), Forza Horizon 4 and 5 (92 each), Battlefield 2 (91), and Empire: Total War (90).
+    God of War (94), Forza Horizon 6 (90) Forza Horizon 4 and 5 (92 each), Battlefield 2 (91), and Empire: Total War (90).
     The dashboard is interactive: users can filter by release year, genre, and Metacritic score band,
     and sort the full games table by any column.
     Hull offers a BSc/MEng and MSc in Computer Science for Games Programming.
@@ -824,6 +824,7 @@ const ALL_GAMES = [
   { title:"Need for Speed: Hot Pursuit", metacriticUrl:"https://www.metacritic.com/game/need-for-speed-hot-pursuit/", igdbUrl:"https://www.igdb.com/games/need-for-speed-hot-pursuit--2", year:2010, genre:"Racing", score:88 },
   { title:"Ori and the Blind Forest", metacriticUrl:"https://www.metacritic.com/game/ori-and-the-blind-forest/", igdbUrl:"https://www.igdb.com/games/ori-and-the-blind-forest", year:2015, genre:"Platformer", score:88 },
   { title:"Ori and the Blind Forest: Definitive Edition", metacriticUrl:"https://www.metacritic.com/game/ori-and-the-blind-forest-definitive-edition/", igdbUrl:"https://www.igdb.com/games/ori-and-the-blind-forest-definitive-edition", year:2016, genre:"Platformer", score:88 },
+  { title:"Star Wars: Galactic Racer", metacriticUrl:"https://www.metacritic.com/game/star-wars-galactic-racer/", igdbUrl:"https://www.igdb.com/games/star-wars-galactic-racer", year:2026, genre:"Racing", score:88 },
   { title:"Tetris Effect: Connected", metacriticUrl:"https://www.metacritic.com/game/tetris-effect-connected/", igdbUrl:"https://www.igdb.com/games/tetris-effect-connected", year:2021, genre:"Puzzle", score:88 },
   { title:"The Room Two", metacriticUrl:"https://www.metacritic.com/game/the-room-two/", igdbUrl:"https://www.igdb.com/games/the-room-two", year:2013, genre:"Puzzle", score:88 },
   { title:"Call of Duty: Black Ops", metacriticUrl:"https://www.metacritic.com/game/call-of-duty-black-ops/", igdbUrl:"https://www.igdb.com/games/call-of-duty-black-ops", year:2010, genre:"Shooter", score:87 },
@@ -942,6 +943,7 @@ const ALL_GAMES = [
   { title:"Age of Empires IV", metacriticUrl:"https://www.metacritic.com/game/age-of-empires-iv/", igdbUrl:"https://www.igdb.com/games/age-of-empires-iv", year:2021, genre:"Strategy", score:81 },
   { title:"Assassin's Creed: Origins", metacriticUrl:"https://www.metacritic.com/game/assassins-creed-origins/", igdbUrl:"https://www.igdb.com/games/assassins-creed-origins", year:2017, genre:"Role-Playing", score:81 },
   { title:"Assassin's Creed: Shadows", metacriticUrl:"https://www.metacritic.com/game/assassins-creed-shadows/", igdbUrl:"https://www.igdb.com/games/assassins-creed-shadows", year:2025, genre:"Role-Playing", score:81 },
+  { title:"Avatar: Frontiers of Pandora - From the Ashes", metacriticUrl:"https://www.metacritic.com/game/avatar-frontiers-of-pandora-from-the-ashes/", igdbUrl:"https://www.igdb.com/games/avatar-frontiers-of-pandora-from-the-ashes", year:2025, genre:"Shooter", score:81 },
   { title:"Battlefield 4", metacriticUrl:"https://www.metacritic.com/game/battlefield-4/", igdbUrl:"https://www.igdb.com/games/battlefield-4", year:2013, genre:"Shooter", score:81 },
   { title:"Battlefield V", metacriticUrl:"https://www.metacritic.com/game/battlefield-v/", igdbUrl:"https://www.igdb.com/games/battlefield-v", year:2018, genre:"Shooter", score:81 },
   { title:"Call of Duty: Advanced Warfare", metacriticUrl:"https://www.metacritic.com/game/call-of-duty-advanced-warfare/", igdbUrl:"https://www.igdb.com/games/call-of-duty-advanced-warfare", year:2014, genre:"Shooter", score:81 },
@@ -976,6 +978,7 @@ const ALL_GAMES = [
   { title:"Fallout 4: Anniversary Edition", metacriticUrl:"https://www.metacritic.com/game/fallout-4-anniversary-edition/", igdbUrl:"https://www.igdb.com/games/fallout-4-anniversary-edition", year:2025, genre:"Role-Playing", score:80 },
   { title:"Far Cry 3: Blood Dragon", metacriticUrl:"https://www.metacritic.com/game/far-cry-3-blood-dragon/", igdbUrl:"https://www.igdb.com/games/far-cry-3-blood-dragon", year:2013, genre:"Shooter", score:80 },
   { title:"Football Manager 2023", metacriticUrl:"https://www.metacritic.com/game/football-manager-2023/", igdbUrl:"https://www.igdb.com/games/football-manager-2023", year:2023, genre:"Simulation", score:80 },
+  { title:"Grand Theft Auto: Online", metacriticUrl:"https://www.metacritic.com/game/grand-theft-auto-online/", igdbUrl:"https://www.igdb.com/games/grand-theft-auto-online", year:2013, genre:"Action", score:80 },
   { title:"Guitar Hero Live", metacriticUrl:"https://www.metacritic.com/game/guitar-hero-live/", igdbUrl:"https://www.igdb.com/games/guitar-hero-live", year:2015, genre:"Miscellaneous", score:80 },
   { title:"IL-2 Sturmovik: Birds of Prey", metacriticUrl:"https://www.metacritic.com/game/il-2-sturmovik-birds-of-prey/", igdbUrl:"https://www.igdb.com/games/il-2-sturmovik-birds-of-prey", year:2009, genre:"Shooter", score:80 },
   { title:"Knockout City", metacriticUrl:"https://www.metacritic.com/game/knockout-city/", igdbUrl:"https://www.igdb.com/games/knockout-city", year:2021, genre:"Action", score:80 },
@@ -1023,6 +1026,7 @@ const ALL_GAMES = [
   { title:"Transformers: Fall of Cybertron", metacriticUrl:"https://www.metacritic.com/game/transformers-fall-of-cybertron/", igdbUrl:"https://www.igdb.com/games/transformers-fall-of-cybertron", year:2012, genre:"Shooter", score:79 },
   { title:"Trials Fusion", metacriticUrl:"https://www.metacritic.com/game/trials-fusion/", igdbUrl:"https://www.igdb.com/games/trials-fusion", year:2014, genre:"Sports", score:79 },
   { title:"Trials Rising", metacriticUrl:"https://www.metacritic.com/game/trials-rising/", igdbUrl:"https://www.igdb.com/games/trials-rising", year:2019, genre:"Sports", score:79 },
+  { title:"UFC 6", metacriticUrl:"https://www.metacritic.com/game/ea-sports-ufc-6/", igdbUrl:"https://www.igdb.com/games/ea-sports-ufc-6", year:2026, genre:"Sports", score:79 },
   { title:"Until Dawn", metacriticUrl:"https://www.metacritic.com/game/until-dawn-2015/", igdbUrl:"https://www.igdb.com/games/until-dawn", year:2015, genre:"Adventure", score:79 },
   { title:"WipEout 2048", metacriticUrl:"https://www.metacritic.com/game/wipeout-2048/", igdbUrl:"https://www.igdb.com/games/wipeout-2048", year:2012, genre:"Racing", score:79 },
   { title:"Worms 2: Armageddon", metacriticUrl:"https://www.metacritic.com/game/worms-2-armageddon/", igdbUrl:"https://www.igdb.com/games/worms-2-armageddon", year:2010, genre:"Strategy", score:79 },
@@ -1070,7 +1074,7 @@ const ALL_GAMES = [
   { title:"Operation Flashpoint: Dragon Rising", metacriticUrl:"https://www.metacritic.com/game/operation-flashpoint-dragon-rising/", igdbUrl:"https://www.igdb.com/games/operation-flashpoint-dragon-rising", year:2009, genre:"Shooter", score:77 },
   { title:"Riders Republic", metacriticUrl:"https://www.metacritic.com/game/riders-republic/", igdbUrl:"https://www.igdb.com/games/riders-republic", year:2021, genre:"Racing", score:77 },
   { title:"Risk: Factions", metacriticUrl:"https://www.metacritic.com/game/risk-factions/", igdbUrl:"https://www.igdb.com/games/risk-factions", year:2010, genre:"Strategy", score:77 },
-  { title:"Rush Rally Origins", metacriticUrl:"https://www.metacritic.com/game/rush-rally-origins/", year:2021, genre:"Racing", score:77 },
+  { title:"Rush Rally Origins", metacriticUrl:"https://www.metacritic.com/game/rush-rally-origins/", igdbUrl:"https://www.igdb.com/games/rush-rally-origins", year:2021, genre:"Racing", score:77 },
   { title:"Sniper Elite 4: Italia", metacriticUrl:"https://www.metacritic.com/game/sniper-elite-4/", igdbUrl:"https://www.igdb.com/games/sniper-elite-4", year:2017, genre:"Shooter", score:77 },
   { title:"The Chronicles of Spellborn", metacriticUrl:"https://www.metacritic.com/game/the-chronicles-of-spellborn/", igdbUrl:"https://www.igdb.com/games/the-chronicles-of-spellborn", year:2008, genre:"Role-Playing", score:77 },
   { title:"World Tour Soccer 2002", metacriticUrl:"https://www.metacritic.com/game/world-tour-soccer-2002/", igdbUrl:"https://www.igdb.com/games/world-tour-soccer-2002", year:2002, genre:"Sports", score:77 },
@@ -1145,6 +1149,7 @@ const ALL_GAMES = [
   { title:"Starlink: Battle for Atlas", metacriticUrl:"https://www.metacritic.com/game/starlink-battle-for-atlas/", igdbUrl:"https://www.igdb.com/games/starlink-battle-for-atlas", year:2018, genre:"Shooter", score:74 },
   { title:"Still Wakes the Deep", metacriticUrl:"https://www.metacritic.com/game/still-wakes-the-deep/", igdbUrl:"https://www.igdb.com/games/still-wakes-the-deep", year:2024, genre:"Adventure", score:74 },
   { title:"The Escapists", metacriticUrl:"https://www.metacritic.com/game/the-escapists/", igdbUrl:"https://www.igdb.com/games/the-escapists", year:2015, genre:"Puzzle", score:74 },
+  { title:"Virginia", metacriticUrl:"https://www.metacritic.com/game/virginia/", igdbUrl:"https://www.igdb.com/games/virginia", year:2016, genre:"Adventure", score:74 },
   { title:"Worms 3", metacriticUrl:"https://www.metacritic.com/game/worms-3/", igdbUrl:"https://www.igdb.com/games/worms-3", year:2014, genre:"Strategy", score:74 },
   { title:"Worms 4", metacriticUrl:"https://www.metacritic.com/game/worms-4/", igdbUrl:"https://www.igdb.com/games/worms-4", year:2016, genre:"Strategy", score:74 },
   { title:"Arma II: Operation Arrowhead", metacriticUrl:"https://www.metacritic.com/game/arma-ii-operation-arrowhead/", igdbUrl:"https://www.igdb.com/games/arma-2-operation-arrowhead", year:2010, genre:"Shooter", score:73 },
@@ -1170,6 +1175,7 @@ const ALL_GAMES = [
   { title:"LEGO Batman 3: Beyond Gotham", metacriticUrl:"https://www.metacritic.com/game/lego-batman-3-beyond-gotham/", igdbUrl:"https://www.igdb.com/games/lego-batman-3-beyond-gotham", year:2014, genre:"Platformer", score:73 },
   { title:"LEGO Marvel Super Heroes 2", metacriticUrl:"https://www.metacritic.com/game/lego-marvel-super-heroes-2/", igdbUrl:"https://www.igdb.com/games/lego-marvel-super-heroes-2", year:2017, genre:"Adventure", score:73 },
   { title:"LEGO Pirates of the Caribbean: The Video Game", metacriticUrl:"https://www.metacritic.com/game/lego-pirates-of-the-caribbean-the-video-game/", igdbUrl:"https://www.igdb.com/games/lego-pirates-of-the-caribbean-the-video-game", year:2011, genre:"Platformer", score:73 },
+  { title:"Mafia: The Old Country", metacriticUrl:"https://www.metacritic.com/game/mafia-the-old-country/", igdbUrl:"https://www.igdb.com/games/mafia-the-old-country", year:2025, genre:"Adventure", score:73 },
   { title:"Micro Machines", metacriticUrl:"https://www.metacritic.com/game/micro-machines/", igdbUrl:"https://www.igdb.com/games/micromachines--1", year:2002, genre:"Racing", score:73 },
   { title:"MLB The Show 26", metacriticUrl:"https://www.metacritic.com/game/mlb-the-show-26/", igdbUrl:"https://www.igdb.com/games/mlb-the-show-26", year:2026, genre:"Sports", score:73 },
   { title:"New International Track & Field", metacriticUrl:"https://www.metacritic.com/game/new-international-track-field/", igdbUrl:"https://www.igdb.com/games/new-international-track-and-field", year:2008, genre:"Sports", score:73 },
@@ -1209,7 +1215,7 @@ const ALL_GAMES = [
   { title:"Zombie Army 4: Dead War", metacriticUrl:"https://www.metacritic.com/game/zombie-army-4-dead-war/", igdbUrl:"https://www.igdb.com/games/zombie-army-4-dead-war", year:2020, genre:"Shooter", score:72 },
   { title:"50 Cent: Blood on the Sand", metacriticUrl:"https://www.metacritic.com/game/50-cent-blood-on-the-sand/", igdbUrl:"https://www.igdb.com/games/50-cent-blood-on-the-sand", year:2009, genre:"Shooter", score:71 },
   { title:"Assassin's Creed: Rogue - Remastered", metacriticUrl:"https://www.metacritic.com/game/assassins-creed-rogue-remastered/", igdbUrl:"https://www.igdb.com/games/assassins-creed-rogue-remastered", year:2018, genre:"Adventure", score:71 },
-  { title:"Astroneer", metacriticUrl:"https://www.metacritic.com/game/astroneer/", year:2016, genre:"Simulation", score:71 },
+  { title:"Astroneer", metacriticUrl:"https://www.metacritic.com/game/astroneer/", igdbUrl:"https://www.igdb.com/games/astroneer", year:2016, genre:"Simulation", score:71 },
   { title:"Big Sky: Infinity", metacriticUrl:"https://www.metacritic.com/game/big-sky-infinity/", igdbUrl:"https://www.igdb.com/games/big-sky-infinity", year:2012, genre:"Shooter", score:71 },
   { title:"Brian Lara International Cricket 2007", metacriticUrl:"https://www.metacritic.com/game/brian-lara-international-cricket-2007/", igdbUrl:"https://www.igdb.com/games/brian-lara-international-cricket-2007", year:2007, genre:"Sports", score:71 },
   { title:"Call of Duty: Strike Team", metacriticUrl:"https://www.metacritic.com/game/call-of-duty-strike-team/", igdbUrl:"https://www.igdb.com/games/call-of-duty-strike-team", year:2013, genre:"Shooter", score:71 },
@@ -1242,6 +1248,7 @@ const ALL_GAMES = [
   { title:"Homefront", metacriticUrl:"https://www.metacritic.com/game/homefront/", igdbUrl:"https://www.igdb.com/games/homefront", year:2011, genre:"Shooter", score:70 },
   { title:"Just Dance 2021", metacriticUrl:"https://www.metacritic.com/game/just-dance-2021/", igdbUrl:"https://www.igdb.com/games/just-dance-2021", year:2021, genre:"Miscellaneous", score:70 },
   { title:"Karaoke Revolution Presents: American Idol - Encore", metacriticUrl:"https://www.metacritic.com/game/karaoke-revolution-presents-american-idol-encore/", igdbUrl:"https://www.igdb.com/games/karaoke-revolution-presents-american-idol-encore", year:2008, genre:"Miscellaneous", score:70 },
+  { title:"Last Stop", metacriticUrl:"https://www.metacritic.com/game/last-stop-2021/", igdbUrl:"https://www.igdb.com/games/last-stop", year:2021, genre:"Adventure", score:70 },
   { title:"LEGO Horizon Adventures", metacriticUrl:"https://www.metacritic.com/game/lego-horizon-adventures/", igdbUrl:"https://www.igdb.com/games/lego-horizon-adventures", year:2024, genre:"Puzzle", score:70 },
   { title:"LEGO Jurassic World", metacriticUrl:"https://www.metacritic.com/game/lego-jurassic-world/", igdbUrl:"https://www.igdb.com/games/lego-jurassic-world", year:2015, genre:"Puzzle", score:70 },
   { title:"Madden NFL 25", metacriticUrl:"https://www.metacritic.com/game/madden-nfl-25/", igdbUrl:"https://www.igdb.com/games/ea-sports-madden-nfl-25-deluxe-edition", year:2024, genre:"Sports", score:70 },
@@ -1348,6 +1355,7 @@ const ALL_GAMES = [
   { title:"F1 Race Stars", metacriticUrl:"https://www.metacritic.com/game/f1-race-stars/", igdbUrl:"https://www.igdb.com/games/f1-race-stars", year:2013, genre:"Racing", score:64 },
   { title:"FBC: Firebreak", metacriticUrl:"https://www.metacritic.com/game/fbc-firebreak/", igdbUrl:"https://www.igdb.com/games/fbc-firebreak", year:2025, genre:"Shooter", score:64 },
   { title:"Harry Potter and the Half-Blood Prince", metacriticUrl:"https://www.metacritic.com/game/harry-potter-and-the-half-blood-prince/", igdbUrl:"https://www.igdb.com/games/harry-potter-and-the-half-blood-prince", year:2009, genre:"Adventure", score:64 },
+  { title:"Harry Potter and the Half-Blood Prince", metacriticUrl:"https://www.metacritic.com/game/harry-potter-and-the-half-blood-prince/", igdbUrl:"https://www.igdb.com/games/harry-potter-and-the-half-blood-prince", year:2009, genre:"Adventure", score:64 },
   { title:"MXGP: Pro", metacriticUrl:"https://www.metacritic.com/game/mxgp-pro/", igdbUrl:"https://www.igdb.com/games/mxgp-pro", year:2018, genre:"Racing", score:64 },
   { title:"Puzzle Kingdoms", metacriticUrl:"https://www.metacritic.com/game/puzzle-kingdoms/", igdbUrl:"https://www.igdb.com/games/puzzle-kingdoms", year:2009, genre:"Puzzle", score:64 },
   { title:"Rainbow Skies", metacriticUrl:"https://www.metacritic.com/game/rainbow-skies/", igdbUrl:"https://www.igdb.com/games/rainbow-skies", year:2018, genre:"Role-Playing", score:64 },
@@ -1416,6 +1424,7 @@ const ALL_GAMES = [
   { title:"Kinect Sports: Rivals", metacriticUrl:"https://www.metacritic.com/game/kinect-sports-rivals/", igdbUrl:"https://www.igdb.com/games/kinect-sports-rivals", year:2014, genre:"Sports", score:60 },
   { title:"Mortal Kombat 1: Khaos Reigns Expansion", metacriticUrl:"https://www.metacritic.com/game/mortal-kombat-1-khaos-reigns/", igdbUrl:"https://www.igdb.com/games/mortal-kombat-1-khaos-reigns-expansion", year:2024, genre:"Action", score:60 },
   { title:"Ryse: Son of Rome", metacriticUrl:"https://www.metacritic.com/game/ryse-son-of-rome/", igdbUrl:"https://www.igdb.com/games/ryse-son-of-rome", year:2013, genre:"Action", score:60 },
+  { title:"Spectra: 8bit Racing", metacriticUrl:"https://www.metacritic.com/game/spectra-8bit-racing/", igdbUrl:"https://www.igdb.com/games/spectra", year:2015, genre:"Racing", score:60 },
   { title:"Suicide Squad: Kill the Justice League", metacriticUrl:"https://www.metacritic.com/game/suicide-squad-kill-the-justice-league/", igdbUrl:"https://www.igdb.com/games/suicide-squad-kill-the-justice-league", year:2024, genre:"Shooter", score:60 },
   { title:"A Knight's Quest", metacriticUrl:"https://www.metacritic.com/game/a-knights-quest/", igdbUrl:"https://www.igdb.com/games/a-knights-quest", year:2019, genre:"Platformer", score:59 },
   { title:"Anthem", metacriticUrl:"https://www.metacritic.com/game/anthem/", igdbUrl:"https://www.igdb.com/games/anthem", year:2019, genre:"Shooter", score:59 },
@@ -1496,7 +1505,7 @@ const ALL_GAMES = [
   { title:"Garfield Gets Real", metacriticUrl:"https://www.metacritic.com/game/garfield-gets-real/", igdbUrl:"https://www.igdb.com/games/garfield-gets-real", year:2009, genre:"Action", score:39 },
   { title:"MindsEye", metacriticUrl:"https://www.metacritic.com/game/mindseye/", igdbUrl:"https://www.igdb.com/games/mindseye", year:2025, genre:"Shooter", score:39 },
   { title:"The Mummy: Tomb of the Dragon Emperor", metacriticUrl:"https://www.metacritic.com/game/the-mummy-tomb-of-the-dragon-emperor/", igdbUrl:"https://www.igdb.com/games/the-mummy-tomb-of-the-dragon-emperor", year:2008, genre:"Adventure", score:39 },
-  { title:"Harry Potter and the Deathly Hallows: Part 1", metacriticUrl:"https://www.metacritic.com/game/harry-potter-and-the-deathly-hallows-part-1/", igdbUrl:"https://www.igdb.com/games/harry-potter-and-the-deathly-hallows-part-1", year:2010, genre:"Shooter", score:38 },
+  { title:"Harry Potter and the Deathly Hallows: Part 1", metacriticUrl:"https://www.metacritic.com/game/harry-potter-and-the-deathly-hallows-part-1/", igdbUrl:"https://www.igdb.com/games/harry-potter-and-the-deathly-hallows-part-1", year:2010, genre:"Adventure", score:38 },
   { title:"Army Men: Major Malfunction", metacriticUrl:"https://www.metacritic.com/game/army-men-major-malfunction/", igdbUrl:"https://www.igdb.com/games/army-men-major-malfunction", year:2006, genre:"Shooter", score:36 },
   { title:"Damnation", metacriticUrl:"https://www.metacritic.com/game/damnation/", igdbUrl:"https://www.igdb.com/games/damnation", year:2009, genre:"Shooter", score:36 },
   { title:"Dead Space: Ignition", metacriticUrl:"https://www.metacritic.com/game/dead-space-ignition/", igdbUrl:"https://www.igdb.com/games/dead-space-ignition", year:2010, genre:"Puzzle", score:35 },
@@ -1536,6 +1545,7 @@ const ALL_GAMES = [
   { title:"Buzz! The Pop Quiz", igdbUrl:"https://www.igdb.com/games/buzz-the-pop-quiz--1", year:2008, genre:"Miscellaneous" },
   { title:"Cabela's Hunting Expeditions", metacriticUrl:"https://www.metacritic.com/game/cabelas-hunting-expeditions/", igdbUrl:"https://www.igdb.com/games/cabelas-hunting-expeditions", year:2012, genre:"Shooter" },
   { title:"Call of Duty: World at War - Final Fronts", metacriticUrl:"https://www.metacritic.com/game/call-of-duty-world-at-war-final-fronts/", igdbUrl:"https://www.igdb.com/games/call-of-duty-world-at-war-final-fronts", year:2008, genre:"Shooter" },
+  { title:"Can I Take Your Order", metacriticUrl:"https://www.metacritic.com/game/can-i-take-your-order/", igdbUrl:"https://www.igdb.com/games/can-i-take-your-order", year:2026, genre:"Action" },
   { title:"Champ Man", metacriticUrl:"https://www.metacritic.com/game/champ-man/", igdbUrl:"https://www.igdb.com/games/champ-man", year:2013, genre:"Simulation" },
   { title:"Chicken Blaster", metacriticUrl:"https://www.metacritic.com/game/chicken-blaster/", igdbUrl:"https://www.igdb.com/games/chicken-blaster--1", year:2009, genre:"Shooter" },
   { title:"Club Penguin Island", metacriticUrl:"https://www.metacritic.com/game/club-penguin-island/", igdbUrl:"https://www.igdb.com/games/club-penguin-island", year:2018, genre:"Role-Playing" },
@@ -1545,6 +1555,7 @@ const ALL_GAMES = [
   { title:"CrossFireX: Operation Catalyst", igdbUrl:"https://www.igdb.com/games/crossfirex-operation-catalyst", year:2022, genre:"Shooter" },
   { title:"CrossFireX: Operation Spectre", igdbUrl:"https://www.igdb.com/games/crossfirex-operation-spectre", year:2022, genre:"Shooter" },
   { title:"Crysis 3: The Lost Island", metacriticUrl:"https://www.metacritic.com/game/crysis-3-the-lost-island/", igdbUrl:"https://www.igdb.com/games/crysis-3-the-lost-island", year:2013, genre:"Shooter" },
+  { title:"Dancing With the Stars: We Dance!", metacriticUrl:"https://www.metacritic.com/game/dancing-with-the-stars-we-dance/", igdbUrl:"https://www.igdb.com/games/dancing-with-the-stars-we-dance", year:2008, genre:"Sports" },
   { title:"Dark Salvation", metacriticUrl:"https://www.metacritic.com/game/dark-salvation/", igdbUrl:"https://www.igdb.com/games/dark-salvation", year:2009, genre:"Shooter" },
   { title:"Darkfall", metacriticUrl:"https://www.metacritic.com/game/darkfall/", igdbUrl:"https://www.igdb.com/games/darkfall", year:2009, genre:"Shooter" },
   { title:"Dead As Disco", metacriticUrl:"https://www.metacritic.com/game/dead-as-disco/", igdbUrl:"https://www.igdb.com/games/dead-as-disco", year:2026, genre:"Action" },
@@ -1605,6 +1616,7 @@ const ALL_GAMES = [
   { title:"LMA Manager 2007", metacriticUrl:"https://www.metacritic.com/game/lma-manager-2007/", igdbUrl:"https://www.igdb.com/games/lma-manager-2007", year:2007, genre:"Simulation" },
   { title:"love is... ... in bloom: the flower shop garden", metacriticUrl:"https://www.metacritic.com/game/love-is-in-bloom-the-flower-shop-garden/", igdbUrl:"https://www.igdb.com/games/love-is-dot-dot-dot-in-bloom", year:2009, genre:"Simulation" },
   { title:"Lucha Libre AAA: Héroes Del Ring", metacriticUrl:"https://www.metacritic.com/game/lucha-libre-aaa-heroes-del-ring/", igdbUrl:"https://www.igdb.com/games/lucha-libre-aaa-heroes-del-ring", year:2010, genre:"Sports" },
+  { title:"Madden NFL 27", metacriticUrl:"https://www.metacritic.com/game/madden-nfl-27/", igdbUrl:"https://www.igdb.com/games/madden-nfl-27", year:2026, genre:"Sports" },
   { title:"Magic: The Gathering - Duels of the Planeswalkers", metacriticUrl:"https://www.metacritic.com/game/magic-the-gathering-duels-of-the-planeswalkers/", igdbUrl:"https://www.igdb.com/games/magic-the-gathering-duels-of-the-planeswalkers", year:2010, genre:"Miscellaneous" },
   { title:"Manchester United: The Interactive DVD", year:2004, genre:"Miscellaneous" },
   { title:"Margot's Bepuzzled!", metacriticUrl:"https://www.metacritic.com/game/margots-bepuzzled/", igdbUrl:"https://www.igdb.com/games/margots-bepuzzled", year:2009, genre:"Puzzle" },
@@ -1636,6 +1648,7 @@ const ALL_GAMES = [
   { title:"RC Mini Racers", metacriticUrl:"https://www.metacritic.com/game/rc-mini-racers/", igdbUrl:"https://www.igdb.com/games/rc-mini-racers--1", year:2015, genre:"Racing" },
   { title:"Ready Player One: OASIS", metacriticUrl:"https://www.metacritic.com/game/ready-player-one-oasis/", igdbUrl:"https://www.igdb.com/games/ready-player-one-oasis", year:2018, genre:"Adventure" },
   { title:"Red Baron: Arcade", metacriticUrl:"https://www.metacritic.com/game/red-baron-arcade/", igdbUrl:"https://www.igdb.com/games/red-baron-arcade", year:2009, genre:"Simulation" },
+  { title:"Red Dead Online", igdbUrl:"https://www.igdb.com/games/red-dead-online", year:2020, genre:"Action" },
   { title:"Rock Band: Track Pack - Volume 1", metacriticUrl:"https://www.metacritic.com/game/rock-band-track-pack-volume-1/", igdbUrl:"https://www.igdb.com/games/rock-band-track-pack-volume-1", year:2008, genre:"Miscellaneous" },
   { title:"Rock Band: Track Pack - Volume 2", metacriticUrl:"https://www.metacritic.com/game/rock-band-track-pack-volume-2/", igdbUrl:"https://www.igdb.com/games/rock-band-track-pack-volume-2", year:2008, genre:"Miscellaneous" },
   { title:"Rush Rally", metacriticUrl:"https://www.metacritic.com/game/rush-rally/", igdbUrl:"https://www.igdb.com/games/rush-rally", year:2014, genre:"Racing" },
@@ -1656,8 +1669,10 @@ const ALL_GAMES = [
   { title:"Smash Up", metacriticUrl:"https://www.metacritic.com/game/smash-up/", igdbUrl:"https://www.igdb.com/games/smash-up", year:2016, genre:"Strategy" },
   { title:"Smiley World: Island Challenge", metacriticUrl:"https://www.metacritic.com/game/smiley-world-island-challenge/", igdbUrl:"https://www.igdb.com/games/smiley-world-island-challenge", year:2009, genre:"Puzzle" },
   { title:"Soccer Manager 2019", metacriticUrl:"https://www.metacritic.com/game/soccer-manager-2019/", igdbUrl:"https://www.igdb.com/games/global-soccer-manager-2019", year:2019, genre:"Simulation" },
+  { title:"Sonic Mania Plus", metacriticUrl:"https://www.metacritic.com/game/sonic-mania-plus/", igdbUrl:"https://www.igdb.com/games/sonic-mania-plus", year:2024, genre:"Platformer" },
   { title:"Space Haters", metacriticUrl:"https://www.metacritic.com/game/space-haters/", igdbUrl:"https://www.igdb.com/games/space-haters", year:2021, genre:"Shooter" },
   { title:"Space Trash Scavenger", metacriticUrl:"https://www.metacritic.com/game/space-trash-scavenger/", igdbUrl:"https://www.igdb.com/games/space-trash-scavenger", year:2024, genre:"Adventure" },
+  { title:"Speedball", metacriticUrl:"https://www.metacritic.com/game/speedball/", igdbUrl:"https://www.igdb.com/games/speedball--2", year:2026, genre:"Sports" },
   { title:"Squad", metacriticUrl:"https://www.metacritic.com/game/squad/", igdbUrl:"https://www.igdb.com/games/squad", year:2020, genre:"Shooter" },
   { title:"Stampede: Racing Royale", metacriticUrl:"https://www.metacritic.com/game/stampede-racing-royale/", igdbUrl:"https://www.igdb.com/games/stampede-racing-royale", year:2024, genre:"Racing" },
   { title:"Star Citizen", metacriticUrl:"https://www.metacritic.com/game/star-citizen/", igdbUrl:"https://www.igdb.com/games/star-citizen", year:2017, genre:"Simulation" },
@@ -1692,7 +1707,6 @@ const ALL_GAMES = [
   { title:"Yamaha Supercross", metacriticUrl:"https://www.metacritic.com/game/yamaha-supercross/", igdbUrl:"https://www.igdb.com/games/yamaha-supercross", year:2009, genre:"Racing" },
   { title:"Zombieland: Headshot Fever", metacriticUrl:"https://www.metacritic.com/game/zombieland-headshot-fever/", igdbUrl:"https://www.igdb.com/games/zombieland-headshot-fever", year:2021, genre:"Shooter" }
 ];
-
 
 const PRE2005_LABEL = "Before 2005";
 const YEAR_CUTOFF = 2005;
